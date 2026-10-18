@@ -18,7 +18,7 @@ if [[ -z "$zipper_repo" ]]; then
   export zipper_repo="https://github.com/sambalclan/AnyKernel3"
 fi
 if [[ -z "$zipper_branch" ]]; then
-  export zipper_branch=mayuri
+  export zipper_branch=main
 fi
 
 export out_image="${maindir}/out/arch/${ARCH}/boot/Image.gz"
