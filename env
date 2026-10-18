@@ -10,12 +10,12 @@ export outside="${maindir}/.."
 export ARCH="arm64"
 export SUBARCH="arm64"
 export KBUILD_BUILD_USER="Telegram"
-export KBUILD_BUILD_HOST="dre698"
+export KBUILD_BUILD_HOST="Pagestu"
 
 export defconfig="blossom_defconfig"
 
 if [[ -z "$zipper_repo" ]]; then
-  export zipper_repo="https://github.com/dre698/AnyKernel3"
+  export zipper_repo="https://github.com/sambalclan/AnyKernel3"
 fi
 if [[ -z "$zipper_branch" ]]; then
   export zipper_branch=mayuri
